@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package conexao;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -14,7 +15,7 @@ import java.util.logging.Logger;
  * @author edimar
  */
 public class Conexao {
-
+  
     private static Connection conn;
     private final static String driver = "org.postgresql.Driver";
     private final static String ip = "localhost/";

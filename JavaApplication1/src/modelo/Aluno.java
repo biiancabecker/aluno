@@ -42,5 +42,9 @@ public class Aluno {
     public String toString() {
         return nome;
     }
+
+    public void setCodigo(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
